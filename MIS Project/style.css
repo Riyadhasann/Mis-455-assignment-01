@@ -1,0 +1,117 @@
+/* Resetting some basic browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+    /* Body styles */
+    body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    background: linear-gradient(to right, #c1d9f7, #fcedf0, #E6E6FA);
+    color: #333;
+    padding: 20px;
+    }
+  
+    /* Navbar styles */
+    nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #4B77BE;
+    display: flex;
+    justify-content: space-between;
+    }
+  
+    nav ul li {
+    display: inline;
+    margin: auto;
+    font-style: normal;
+    nav-left: auto;
+    margin-left: 2px;
+    }
+  
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    }
+  
+    nav ul li a:hover {
+    background: linear-gradient(to right, #3f87de, #7373e2);
+    animation: alternate;
+    border-radius: 5px;
+    } 
+
+    nav ul li a:hover {
+        transform: scale(1.1); /* Slightly enlarges the element */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+    }
+    
+    /* Hover Effect 3: Text Shadow */
+    nav ul li a:hover {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Adds shadow to text */
+    }
+    
+
+  
+    /* Image styles */  
+
+
+    image {
+        width: 200px;
+        justify-content: center; /* Set the width of each image */
+        height: 50%; /* Keep the aspect ratio */
+    }
+    
+    img {
+    max-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    margin-left: 25%;
+    }
+  
+    /* Flexbox container */
+    .flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+  
+    .flex-item {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* Grid container */
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    }
+  
+    .grid-item {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* Basic heading styles */
+    h1 {
+    color: #801f1f;
+    margin-bottom: 20px;
+    }
+    h3 {
+        color: #801f1f;
+        margin-bottom: 20px;
+        }
+
+
+  
