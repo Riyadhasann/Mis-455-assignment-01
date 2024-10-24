@@ -45,7 +45,7 @@
     } 
 
     nav ul li a:hover {
-        transform: scale(1.1); /* Slightly enlarges the element */
+        transform: scale(1.2); /* Slightly enlarges the element */
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
     }
     
@@ -153,14 +153,14 @@
 .comment-box button{
     border: 0;
     padding: 10px 30px;
-    background: #86b0b6;
+    background: #58858D;
     font-size: 18px;
     border-radius: 5px;
     color: #fff;
 }
 
 .comment-box button:hover{
-    background-color: #718a8e;
+    background-color: #98cfd7;
 }
 
 .suggestion-box{
@@ -184,7 +184,7 @@
 .suggestion-box button{
     border: 0;
     padding: 10px 30px;
-    background: #86b0b6;
+    background: #58858d;
     font-size: 18px;
     border-radius: 5px;
     color: #fff;
@@ -193,5 +193,5 @@
 
 
 .suggestion-box button:hover{
-    background-color: #718a8e;
+    background-color: #98cfd7;
 }
